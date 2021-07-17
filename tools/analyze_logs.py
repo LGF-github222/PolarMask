@@ -172,7 +172,8 @@ def main():
     log_dicts = load_json_logs(json_logs)
 
     eval(args.task)(log_dicts, args)
-
+    
+    print("学习git管理")
 
 if __name__ == '__main__':
     main()
