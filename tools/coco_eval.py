@@ -23,6 +23,7 @@ def main():
     args = parser.parse_args()
     coco_eval(args.result, args.types, args.ann, args.max_dets)
 
+#  1234改
 
 if __name__ == '__main__':
     main()
